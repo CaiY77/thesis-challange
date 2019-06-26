@@ -6,6 +6,8 @@
 body {
   background: url('../images/back.png');
   background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
 }
 
 nav {
@@ -13,99 +15,131 @@ nav {
   padding: 5vh 0 3vh 0;
 }
 
-a {
+.nav-item {
   text-decoration: none;
   color: white;
   margin: 3vh 2vw 3vh 2vw;
   font-size: 1.2rem;
   padding: 3vh;
 }
-a:hover{
+
+.nav-item:hover {
   border-bottom: solid 3px white;
 }
-.fake-logo{
-  color:white;
+
+.fake-logo {
+  color: white;
   flex: 1;
   padding-left: 3vw;
   cursor: pointer;
 }
+
 .nav-contain {
   flex: 20;
   text-align: center;
 }
-.menu-icon{
+
+.menu-icon {
   flex: 1;
   cursor: pointer;
 }
-.bar{
+
+.bar {
   width: 35px;
   height: 5px;
   background-color: white;
   margin: 6px 0;
 }
-main{
+
+main {
   display: flex;
   height: 80vh;
 }
 
-.left, .right{
-  border: solid red;
+.left {
+  color: white;
+  flex: 1;
 }
-.left{
-  color:white;
-  flex:1;
+
+.text {
+  margin: 19vh 10vw 0 10vw;
 }
-.text{
-  margin: 20vh 10vw 0 10vw;
+
+.form-contain {
+  margin: 19vh 13vw 0 13vw;
 }
-.form-contain{
-  margin: 20vh 13vw 0 13vw;
-}
-.quote{
+
+.quote {
   font-size: 3.5rem;
 }
-h3{
+
+h3 {
   margin-top: 4vh;
 }
-.right{
-  color:white;
-  flex:1;
+
+.right {
+  color: white;
+  flex: 1;
 }
-form{
+
+form {
   display: flex;
   flex-direction: column;
   border: solid darkgrey 2px;
-  color:white;
+  color: white;
   border-radius: 5px;
 }
-input{
+
+input {
   height: 5vh;
-  border:none;
+  border: none;
   background: rgba(211, 211, 211, 0.3);
-  border:solid darkgrey 1px;
+  border: solid darkgrey 1px;
   padding: 1vh 0 0 1vw;
 }
-::placeholder{
-  color:white;
+
+::placeholder {
+  color: white;
   font-size: 1rem;
 }
-button{
+
+button {
   background: rgb(36, 140, 207);
   color: white;
   height: 6vh;
   font-size: 1rem;
 }
-.sign-up{
+
+.sign-up {
   text-align: center;
   padding: 3vh;
   font: 0.5rem;
   letter-spacing: 1px;
 }
-.terms{
+
+.terms {
   padding-top: 3vh;
   text-align: center;
   color: darkgrey;
 }
-span{
+span {
   color: lightgrey;
+}
+footer{
+  display: flex;
+}
+.copyright{
+  flex: 1;
+  color:white;
+  padding: 3vh 0 0 3vw;
+}
+.footer-nav{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.foot-nav-item{
+  text-decoration: none;
+  color: white;
+  margin: 3vh 2vw 3vh 2vw;
 }

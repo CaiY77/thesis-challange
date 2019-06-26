@@ -58,6 +58,9 @@ main{
 .text{
   margin: 20vh 10vw 0 10vw;
 }
+.form-contain{
+  margin: 20vh 13vw 0 13vw;
+}
 .quote{
   font-size: 3.5rem;
 }
@@ -67,4 +70,42 @@ h3{
 .right{
   color:white;
   flex:1;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  border: solid darkgrey 2px;
+  color:white;
+  border-radius: 5px;
+}
+input{
+  height: 5vh;
+  border:none;
+  background: rgba(211, 211, 211, 0.3);
+  border:solid darkgrey 1px;
+  padding: 1vh 0 0 1vw;
+}
+::placeholder{
+  color:white;
+  font-size: 1rem;
+}
+button{
+  background: rgb(36, 140, 207);
+  color: white;
+  height: 6vh;
+  font-size: 1rem;
+}
+.sign-up{
+  text-align: center;
+  padding: 3vh;
+  font: 0.5rem;
+  letter-spacing: 1px;
+}
+.terms{
+  padding-top: 3vh;
+  text-align: center;
+  color: darkgrey;
+}
+span{
+  color: lightgrey;
 }
